@@ -78,7 +78,7 @@ class Client
      * @param  \Teleapi\Sms\Message  $message
      * @return \Psr\Http\Message\RequestInterface
      */
-    private final function prepareRequest(Message $message)
+    final private function prepareRequest(Message $message)
     {
         return new Request('POST', self::BASE_URI, $this->headers, http_build_query([
             'token' => $this->token,
