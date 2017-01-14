@@ -43,8 +43,6 @@ class Client
     {
         $this->token = $token;
         $this->setHttpClient($http ?: HttpClientDiscovery::find());
-
-        print_r($http);
     }
 
     /**

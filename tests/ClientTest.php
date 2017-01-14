@@ -22,7 +22,7 @@ class ClientTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->client = new Client($this->token);
+        $this->client = new Client($this->token, new HttpClient);
     }
 
     public function testSendRequestIsValid()

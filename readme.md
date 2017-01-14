@@ -1,5 +1,7 @@
 # Teleapi SMS
 
+[![Build Status](https://travis-ci.org/samrap/teleapi-sms.svg?branch=master)](https://travis-ci.org/samrap/teleapi-sms)
+
 This package provides a fluent interface to the Teleapi SMS service.
 
 ### Installation
